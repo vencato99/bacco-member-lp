@@ -1,0 +1,46 @@
+h1 { 
+font-family: filson-pro, sans-serif;
+color: white;
+font-size: 48px;
+font-weight: 700;
+font-style: normal;
+}
+
+p { 
+    font-family: filson-pro, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+ background-color: #1A181B;
+}
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: black;
+    align-items: center;
+    padding: 0 2.5%;
+    position: fixed;
+    width: 95%;
+    z-index: 2;
+    top: 0;
+}
+
+a { 
+    cursor: pointer;
+    color: white;
+    font-family: filson-pro, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}

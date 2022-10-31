@@ -1,0 +1,11 @@
+html { 
+    scroll-behavior: smooth;
+}
+
+.header-item { 
+    transition: all 0.2s;
+}
+
+.header-item:hover { 
+    color: #B21751;
+}

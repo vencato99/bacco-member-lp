@@ -1,0 +1,106 @@
+.video-box { 
+   width: 100%;
+    height: 100vh;
+    object-fit: cover;
+   
+}
+
+
+.video-container { 
+  margin-top: 80px;
+}
+
+
+.som { 
+    background-image: url('/assets/som.svg');
+    background-repeat: no-repeat;
+    position: fixed;
+    cursor: pointer;
+    bottom: 25px;
+    right: 25px;
+    border: 0px;
+    padding: 25px;
+    border-radius: 100%;
+    background-position: center;
+    background-color: #B21751;
+    transition: all 0.4s;
+  }
+
+  .semsom { 
+    background-image: url('/assets/semsom.svg');
+    background-repeat: no-repeat;
+    position: fixed;
+    cursor: pointer;
+    bottom: 25px;
+    right: 25px;
+    border: 0px;
+    padding: 25px;
+    border-radius: 100%;
+    background-position: center;
+    background-color: #B21751;
+    transition: all 0.4s;
+  }
+
+    .semsom:hover, .som:hover { 
+    opacity: 0.8;
+  }
+
+
+
+  .bacco-club { 
+    font-family: filson-pro, sans-serif;
+    color: #B21751;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  .about-container { 
+    display: flex;
+    
+  }
+
+  .about-image { 
+   width: 50%;
+   padding: 5%;
+  }
+
+  .about-image-wine { 
+    width: 100%;
+    
+    height: auto;
+    border-radius: 50px;
+  }
+  
+  .about-description { 
+    width: 40%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .header-itens { 
+    gap: 20px;
+    display: flex;
+  }
+
+  .button-header { 
+    padding: 5px 20px;
+    border-radius: 25px;
+    background-color: #B21751;
+    color: white;
+    cursor: pointer;
+    color: white;
+    font-family: filson-pro, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+    transition: all 0.3s;
+  }
+
+  .button-header:hover { 
+    opacity:0.6 ;
+  }
