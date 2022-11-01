@@ -71,6 +71,10 @@
                 font-weight: 200;
               }
 
+              .assinatura-container { 
+                flex-direction: column;
+              }
+
         } 
 
 

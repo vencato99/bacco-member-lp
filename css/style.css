@@ -104,3 +104,107 @@
   .button-header:hover { 
     opacity:0.6 ;
   }
+
+
+.assinatura-container{
+  display: flex;
+  height: 90vh;
+}
+
+.assinatura-first {
+background-color: #5F2A32;
+width: 30%;
+padding: 3.33%;
+display:flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+
+  .assinatura-third { 
+    /* background-color: #281112; */
+    background-image: url('/assets/pack.png');
+    background-size: cover;
+    width:63.33%;
+  }
+
+
+
+  .bacco-container { 
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+  .assinatura-benefit {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .benefit-list { 
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 25px;
+  }
+
+  .benefit-info { 
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    background-color: #1A181B;
+    border-radius: 15px;
+    padding:  5%;
+  }
+
+  .button-info { 
+    padding: 8px 20px;
+    border-radius: 25px;
+    background-color: #7E5A4E;
+    color: white;
+    cursor: pointer;
+    color: white;
+    font-family: filson-pro, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100px;
+    text-align: center;
+    transition: all 0.3s;
+  }
+
+  .button-info:hover { 
+    opacity:0.6 ;
+  }
+
+  .bacco-content { 
+    display: flex;
+    margin-top: 50px;
+   
+  }
+
+  .bacco-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .bacco-content-first, .bacco-content-second, .bacco-content-third { 
+width: 33%;
+padding: 2.5%;
+  }
+
+  .bacco-content-first { 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
