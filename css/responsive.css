@@ -88,7 +88,7 @@
 
   .assinatura-first {
     width: 92%;
-    padding: 10% 4%;
+    padding: 15% 4%;
   }
 
   .assinatura-third {
@@ -145,13 +145,46 @@
 
   .bacco-header h1 {
     font-size: 40px;
-    margin-bottom: -25px;
+    margin-bottom: -20px;
+  }
+
+  .bacco-header p {
+    font-size: 16px;
   }
 
   .tab button {
     white-space: nowrap;
   }
 
+  .benefit-info h2 {
+    font-size: 20px;
+  }
+
+  .about-container {
+    margin-bottom: 100px;
+  }
+
+  .bacco-content {
+    margin-top: 20px;
+  }
+
+  .button-info {
+    width: 75px;
+  }
+
+  .button-info a,
+  .button-header a {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  footer {
+    padding: 10%;
+  }
 }
 
 @media only screen and (max-width: 750px) {
