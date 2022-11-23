@@ -1,14 +1,29 @@
-html { 
+html {
     scroll-behavior: smooth;
 }
 
-.header-item { 
+.header-item {
     transition: all 0.2s;
 }
 
-.header-item:hover { 
+.header-item:hover {
     color: #B21751;
 }
 
 
 
+.tabcontent {
+    animation: fadeEffect 1s;
+    /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

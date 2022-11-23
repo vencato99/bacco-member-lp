@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,139 +12,274 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.png">
     <link rel="stylesheet" href="https://use.typekit.net/eff5ycy.css">
 
-    
-    
+
+
     <title>Bacco Membership</title>
 </head>
+
 <body>
     <header>
-        <img  class="logo" src="/assets/logo.png" height="40px" width="auto" style="cursor:pointer;">
+        <img class="logo" src="/assets/logo.png" height="40px" width="auto" style="cursor:pointer;">
         <div class="header-itens">
             <a class="header-item">Home</a>
             <a class="header-item">Sobre</a>
             <a class="header-item">Assinatura</a>
             <a class="header-item">Bacco</a>
-                 
+
         </div>
 
         <div class="button-header">ASSINAR</div>
-        
+
     </header>
-    
-       <section class="video-container">
+
+    <section class="video-container">
 
 
-        <video loop autoplay muted id="myVideo"  class="video-box" >
+        <video loop autoplay muted id="myVideo" class="video-box">
 
             <source src="/assets/Final Render Here.mp4" type="video/mp4">
             <source src="/assets/Final Render Here.ogg" type="video/ogg">Your browser does not support HTML5 video.
-          </video>
+        </video>
 
-          <div id="audio-control" class="muted semsom"></div>
+        <div id="audio-control" class="muted semsom"></div>
 
-        </section>
-   
+    </section>
 
-        <section class="about-container">
 
-            <div class="about-image">
-                <img  class="about-image-wine"src="/assets/garrafas.png">
+    <section class="about-container">
 
+        <div class="about-image">
+            <img class="about-image-wine" src="/assets/garrafas.png">
+
+        </div>
+
+        <div class="about-description">
+            <img src="/assets/baccoicon.png" width="145px">
+            <h1 class="about-bacco-h1">Bacco Exclusive <span class="bacco-club">Club</span></h1>
+            <p class="about-bacco-p">Participe do clube de membros da Bacco e receba diversos benefícios como
+                experiências únicas, vinhos exclusivos e produtos selecionados para você. Junte-se com mais de 200
+                membros em todo o Brasil.</p>
+        </div>
+    </section>
+
+
+    <section class="assinatura-container">
+        <div class="assinatura-first">
+            <img src="/assets/swoosh.png" height="auto" width="144px">
+            <h1>Benefícios</h1>
+            <h5>Ao Assinar e se tornar um membro Bacco você recebe diversos benefícios e descontos.</h5>
+
+            <!-- Tab links -->
+            <div class="tab">
+                <button class="tablinks" onclick="openPlan(event, 'Plano1')" id="defaultOpen">Plano 1</button>
+                <button class="tablinks" onclick="openPlan(event, 'Plano2')">Plano 2</button>
+                <button class="tablinks" onclick="openPlan(event, 'Plano3')">Plano 3</button>
+                <button class="tablinks" onclick="openPlan(event, 'Plano4')">Plano 4</button>
+                <button class="tablinks" onclick="openPlan(event, 'Customizado')">Customizado</button>
             </div>
 
-            <div class="about-description">
-                <img src="/assets/baccoicon.png" width="145px">
-                <h1 class="about-bacco-h1">Bacco Exclusive <span class="bacco-club">Club</span></h1>
-                <p class="about-bacco-p">Participe do clube de membros da Bacco e receba diversos benefícios como experiências únicas, vinhos exclusivos e produtos selecionados para você.  Junte-se com mais de 200 membros em todo o Brasil.</p>
-            </div>
-        </section>
+            <!-- Tab content -->
+            <div id="Plano1" class="tabcontent">
 
-
-        <section class="assinatura-container"> 
-            <div class="assinatura-first">
-                <img src="/assets/swoosh.png" height="auto" width="144px">
-                <h1>Benefícios</h1>
-                <h5>Ao Assinar e se tornar um membro Bacco você recebe diversos benefícios e descontos.</h5>
                 <div class="benefit-list">
-                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto"><h6>Nome do Benefício</h6></div>
-                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto"><h6>Nome do Benefício</h6></div>
-                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto"><h6>Nome do Benefício</h6></div>
-                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto"><h6>Nome do Benefício</h6></div>
-                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto"><h6>Nome do Benefício</h6></div>
-                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto"><h6>Nome do Benefício</h6></div>
-                </div>
-
-                <div class="benefit-info">
-                 
-                    <div>
-                        <h3>Valor</h3>
-                        <h2>R$300</h2>
+                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto">
+                        <h6>Cashback de 3%*</h6>
+                    </div>
+                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto">
+                        <h6>2 Garrafas</h6>
                     </div>
 
-                    <div class="button-info">Assinar</div>
+                </div>
+                <p style="margin-top: 25px; font-size: 16px;">*CashBack pode ser usado na compra no app, adegas e
+                    esbalecimentos
+                    parceiros.</p>
+
+                <div class="benefit-info">
+
+                    <div>
+                        <h3>Valor</h3>
+                        <h2>R$89,90/mês</h2>
+                    </div>
+
+                    <div class="button-info"><a style="text-decoration:none ;"
+                            href="https://app.vindi.com.br/customer/pages/c6ea1ecb-8a1d-4d36-baa8-72e9499660fe/subscriptions/new"
+                            target="_blank">Assinar</a></div>
 
                 </div>
-
-
-
-            </div>
-            
-            <div class="assinatura-third"></div>
-
-
-
-
-        </section>
-
-        <section>
-
-
-
-        <section class="bacco-container">
-           
-               
-            <div class="bacco-header">
-                <h4 style="margin-bottom: -10px">Quem Somos</h4>
-                <h1>Bacco</h1>
-                <p>Uma breve história de uma empresa que veio para revolucionar</p>
             </div>
 
-            <div class="bacco-content"> 
-                <div class="bacco-content-first">
-                    <img src="/assets/silueta-circle.png" width="300px" height="auto">
+            <div id="Plano2" class="tabcontent">
+
+                <div class="benefit-list">
+                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto">
+                        <h6>Cashback de 5%*</h6>
+                    </div>
+                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto">
+                        <h6>2 Garrafas</h6>
+                    </div>
+
                 </div>
+                <p style="margin-top: 25px; font-size: 16px;">*CashBack pode ser usado na compra no app, adegas e
+                    esbalecimentos
+                    parceiros.</p>
 
-                <div class="bacco-content-second">
-                    <h4 style="margin-bottom: 25px;" >01. Nossa História</h4>
-                    <p>Somos uma empresa de tecnologia, inovação e investimento em cripto que trás para o mercado de vinhos um novo jeito de encantar e proporcionar experiências únicas aos amantes de vinhos.</p>
-                   <br> <p>Somos uma empresa de tecnologia, inovação e investimento em cripto que trás para o mercado de vinhos um novo jeito de encantar e proporcionar experiências únicas aos amantes de vinhos.</p>             
+                <div class="benefit-info">
+
+                    <div>
+                        <h3>Valor</h3>
+                        <h2>R$169,90/mês</h2>
+                    </div>
+
+                    <div class="button-info"><a style="text-decoration:none ;"
+                            href="https://app.vindi.com.br/customer/pages/c6ea1ecb-8a1d-4d36-baa8-72e9499660fe/subscriptions/new"
+                            target="_blank">Assinar</a></div>
+
                 </div>
-
-                <div class="bacco-content-third">
-                    <h4 style="margin-bottom: 25px;">02. Diferencial</h4>
-                    <p>Somos uma empresa de tecnologia, inovação e investimento em cripto que trás para o mercado de vinhos um novo jeito de encantar e proporcionar experiências únicas aos amantes de vinhos.</p>
-                    <br> <p>Somos uma empresa de tecnologia, inovação e investimento em cripto que trás para o mercado de vinhos um novo jeito de encantar e proporcionar experiências únicas aos amantes de vinhos.</p>             
-                 </div>
-
             </div>
 
-                
+            <div id="Plano3" class="tabcontent">
+                <div class="benefit-list">
+                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto">
+                        <h6>Cashback de 7%*
+                        </h6>
+                    </div>
+                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto">
+                        <h6>2 Garrafas</h6>
+                    </div>
 
+                </div>
+                <p style="margin-top: 25px; font-size: 16px;">*CashBack pode ser usado na compra no app, adegas e
+                    esbalecimentos
+                    parceiros.</p>
 
-        </section>
+                <div class="benefit-info">
 
-        <footer>
-            <div>
-                <a href="https://www.instagram.com/baccosmartwine/" target="_blank"> <img style="cursor: pointer" src="/assets/Instagram 1.png"> </a>
-                <a href="#" target="_blank"> <img style="cursor: pointer" src="/assets/Linkedin.png"> </a>
-                
+                    <div>
+                        <h3>Valor</h3>
+                        <h2>R$439,90/mês</h2>
+                    </div>
+
+                    <div class="button-info"><a style="text-decoration:none ;"
+                            href="https://app.vindi.com.br/customer/pages/c6ea1ecb-8a1d-4d36-baa8-72e9499660fe/subscriptions/new"
+                            target="_blank">Assinar</a></div>
+
+                </div>
             </div>
-            <p>2022 Bacco - Todos os direitos reservados</p>
-        </footer>
 
-        
+            <div id="Plano4" class="tabcontent">
+                <div class="benefit-list">
+                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto">
+                        <h6>Cashback de 9%*</h6>
+                    </div>
+                    <div class="assinatura-benefit"><img src="/assets/grapes.png" width="24px" height="auto">
+                        <h6>2 Garrafas</h6>
+                    </div>
+
+                </div>
+                <p style="margin-top: 25px; font-size: 16px;">*CashBack pode ser usado na compra no app, adegas e
+                    esbalecimentos
+                    parceiros.</p>
+
+                <div class="benefit-info">
+
+                    <div>
+                        <h3>Valor</h3>
+                        <h2>R$890,00/mês</h2>
+                    </div>
+
+                    <div class="button-info"><a style="text-decoration:none ;"
+                            href="https://app.vindi.com.br/customer/pages/c6ea1ecb-8a1d-4d36-baa8-72e9499660fe/subscriptions/new"
+                            target="_blank">Assinar</a></div>
+
+                </div>
+            </div>
+
+            <div id="Customizado" class="tabcontent">
+                <p style="margin-top: 25px; font-weight: 600;">Quer um plano customizado para a sua demanda?</p>
+                <p style="margin-top: 10px; font-size: 16px;">Entre em contato e vamos montar um plano único, com
+                    garrafas selecionadas e diferentes benefícios.
+                </p>
+                <div class="button-info" style="width:200px ; margin-top: 15px;"><a style="text-decoration:none ;"
+                        href="https://api.whatsapp.com/send?phone=554796198243" target="_blank">Entrar em
+                        Contato</a></div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="assinatura-third"></div>
+
+
+
+
+    </section>
+
+
+
+
+
+    <section class="bacco-container">
+
+
+        <div class="bacco-header">
+            <h4 style="margin-bottom: -10px">Quem Somos</h4>
+            <h1>Bacco</h1>
+            <p>Uma breve história de uma empresa que veio para revolucionar</p>
+        </div>
+
+        <div class="bacco-content">
+            <div class="bacco-content-first">
+                <img src="/assets/silueta-circle.png" width="300px" height="auto">
+            </div>
+
+            <div class="bacco-content-second">
+                <h4 style="margin-bottom: 25px;">01. Nossa História</h4>
+                <p>Somos uma empresa de tecnologia, inovação e investimento em cripto que trás para o mercado de
+                    vinhos um novo jeito de encantar e proporcionar experiências únicas aos amantes de vinhos.</p>
+                <br>
+                <p>Somos uma empresa de tecnologia, inovação e investimento em cripto que trás para o mercado de
+                    vinhos um novo jeito de encantar e proporcionar experiências únicas aos amantes de vinhos.</p>
+            </div>
+
+            <div class="bacco-content-third">
+                <h4 style="margin-bottom: 25px;">02. Diferencial</h4>
+                <p>Somos uma empresa de tecnologia, inovação e investimento em cripto que trás para o mercado de
+                    vinhos um novo jeito de encantar e proporcionar experiências únicas aos amantes de vinhos.</p>
+                <br>
+                <p>Somos uma empresa de tecnologia, inovação e investimento em cripto que trás para o mercado de
+                    vinhos um novo jeito de encantar e proporcionar experiências únicas aos amantes de vinhos.</p>
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+    <footer>
+        <div>
+            <a href="https://www.instagram.com/baccosmartwine/" target="_blank"> <img style="cursor: pointer"
+                    src="/assets/Instagram 1.png"> </a>
+            <a href="#" target="_blank"> <img style="cursor: pointer" src="/assets/Linkedin.png"> </a>
+
+        </div>
+        <p>2022 Bacco - Todos os direitos reservados</p>
+    </footer>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
     <script src="js/script.js"></script>
+    <script src="js/tabs.js"></script>
 
 </body>
+
 </html>

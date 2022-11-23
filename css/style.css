@@ -1,210 +1,261 @@
-.video-box { 
-   width: 100%;
-    height: 100vh;
-    object-fit: cover;
-   
+.video-box {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+
 }
 
 
-.video-container { 
+.video-container {
   margin-top: 80px;
 }
 
 
-.som { 
-    background-image: url('/assets/som.svg');
-    background-repeat: no-repeat;
-    position: fixed;
-    cursor: pointer;
-    bottom: 25px;
-    right: 25px;
-    border: 0px;
-    padding: 25px;
-    border-radius: 100%;
-    background-position: center;
-    background-color: #B21751;
-    transition: all 0.4s;
-  }
+.som {
+  background-image: url('/assets/som.svg');
+  background-repeat: no-repeat;
+  position: fixed;
+  cursor: pointer;
+  bottom: 25px;
+  right: 25px;
+  border: 0px;
+  padding: 25px;
+  border-radius: 100%;
+  background-position: center;
+  background-color: #B21751;
+  transition: all 0.4s;
+}
 
-  .semsom { 
-    background-image: url('/assets/semsom.svg');
-    background-repeat: no-repeat;
-    position: fixed;
-    cursor: pointer;
-    bottom: 25px;
-    right: 25px;
-    border: 0px;
-    padding: 25px;
-    border-radius: 100%;
-    background-position: center;
-    background-color: #B21751;
-    transition: all 0.4s;
-  }
+.semsom {
+  background-image: url('/assets/semsom.svg');
+  background-repeat: no-repeat;
+  position: fixed;
+  cursor: pointer;
+  bottom: 25px;
+  right: 25px;
+  border: 0px;
+  padding: 25px;
+  border-radius: 100%;
+  background-position: center;
+  background-color: #B21751;
+  transition: all 0.4s;
+}
 
-    .semsom:hover, .som:hover { 
-    opacity: 0.8;
-  }
-
-
-
-  .bacco-club { 
-    font-family: filson-pro, sans-serif;
-    color: #B21751;
-    font-size: 48px;
-    font-weight: 700;
-    font-style: normal;
-  }
+.semsom:hover,
+.som:hover {
+  opacity: 0.8;
+}
 
 
-  .about-container { 
-    display: flex;
-    
-  }
 
-  .about-image { 
-   width: 50%;
-   padding: 5%;
-  }
-
-  .about-image-wine { 
-    width: 100%;
-    
-    height: auto;
-    border-radius: 50px;
-  }
-  
-  .about-description { 
-    width: 40%;
-    padding: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.bacco-club {
+  font-family: filson-pro, sans-serif;
+  color: #B21751;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+}
 
 
-  .header-itens { 
-    gap: 20px;
-    display: flex;
-  }
+.about-container {
+  display: flex;
 
-  .button-header { 
-    padding: 5px 20px;
-    border-radius: 25px;
-    background-color: #B21751;
-    color: white;
-    cursor: pointer;
-    color: white;
-    font-family: filson-pro, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    
-    transition: all 0.3s;
-  }
+}
 
-  .button-header:hover { 
-    opacity:0.6 ;
-  }
+.about-image {
+  width: 50%;
+  padding: 5%;
+}
+
+.about-image-wine {
+  width: 100%;
+
+  height: auto;
+  border-radius: 50px;
+}
+
+.about-description {
+  width: 40%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
-.assinatura-container{
+.header-itens {
+  gap: 20px;
+  display: flex;
+}
+
+.button-header {
+  padding: 5px 20px;
+  border-radius: 25px;
+  background-color: #B21751;
+  color: white;
+  cursor: pointer;
+  color: white;
+  font-family: filson-pro, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+  transition: all 0.3s;
+}
+
+.button-header:hover {
+  opacity: 0.6;
+}
+
+
+.assinatura-container {
   display: flex;
   height: 90vh;
 }
 
 .assinatura-first {
-background-color: #5F2A32;
-width: 30%;
-padding: 3.33%;
-display:flex;
-flex-direction: column;
-justify-content: center;
+  background-color: #5F2A32;
+  width: 30%;
+  padding: 3.33%;
+  display: flex;
+  flex-direction: column;
+
 }
 
 
 
-  .assinatura-third { 
-    /* background-color: #281112; */
-    background-image: url('/assets/pack.png');
-    background-size: cover;
-    width:63.33%;
-  }
+.assinatura-third {
+  /* background-color: #281112; */
+  background-image: url('/assets/pack.png');
+  background-size: cover;
+  width: 63.33%;
+}
 
 
 
-  .bacco-container { 
-    display: flex;
-    height: 90vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.bacco-container {
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
 
-  .assinatura-benefit {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-  }
+.assinatura-benefit {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
 
-  .benefit-list { 
-    display: flex;
-    flex-direction: column;
-    gap:10px;
-    margin-top: 25px;
-  }
+.benefit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 25px;
+}
 
-  .benefit-info { 
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 25px;
-    background-color: #1A181B;
-    border-radius: 15px;
-    padding:  5%;
-  }
+.benefit-info {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  background-color: #1A181B;
+  border-radius: 15px;
+  padding: 5%;
+}
 
-  .button-info { 
-    padding: 8px 20px;
-    border-radius: 25px;
-    background-color: #7E5A4E;
-    color: white;
-    cursor: pointer;
-    color: white;
-    font-family: filson-pro, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    width: 100px;
-    text-align: center;
-    transition: all 0.3s;
-  }
+.button-info {
+  padding: 8px 20px;
+  border-radius: 25px;
+  background-color: #7E5A4E;
+  color: white;
+  cursor: pointer;
+  color: white;
+  font-family: filson-pro, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100px;
+  text-align: center;
+  transition: all 0.3s;
+}
 
-  .button-info:hover { 
-    opacity:0.6 ;
-  }
+.button-info:hover {
+  opacity: 0.6;
+}
 
-  .bacco-content { 
-    display: flex;
-    margin-top: 50px;
-   
-  }
+.bacco-content {
+  display: flex;
+  margin-top: 50px;
 
-  .bacco-header {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
-  }
+}
 
-  .bacco-content-first, .bacco-content-second, .bacco-content-third { 
-width: 33%;
-padding: 2.5%;
-  }
+.bacco-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
 
-  .bacco-content-first { 
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  }
+.bacco-content-first,
+.bacco-content-second,
+.bacco-content-third {
+  width: 33%;
+  padding: 2.5%;
+}
+
+.bacco-content-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  margin-top: 15px;
+  gap: 10px;
+  display: flex;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  background-color: #1A181B;
+  color: white;
+  border-radius: 15px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #000000;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #B21751;
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+
+
+  border-top: none;
+}
+
+
+.tab::-webkit-scrollbar {
+  display: none;
+}

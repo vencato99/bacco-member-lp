@@ -1,105 +1,176 @@
 @media only screen and (max-width: 1000px) {
-    .video-box {
-      
-      width: 100%;
-      height: 100%;
+  .video-box {
 
-    }
+    width: 100%;
+    height: 100%;
 
-    .video-container{ 
-        height: 80vh;
-        margin-bottom: 100px;
-    }
   }
 
-  @media only screen and (max-width: 1440px) {
-    .about-image {
-      width: 40%;
-      
-    }
+  .video-container {
+    height: 80vh;
+    margin-bottom: 100px;
+  }
+}
 
-    .about-description { 
-        width: 40%;
-        padding: 2.5%;
-      
-      }
+@media only screen and (max-width: 1440px) {
+  .about-image {
+    width: 40%;
+
   }
 
-  @media only screen and (max-width: 1250px) {
-    .about-image {
-      width: 35%;
-      
-    }
+  .about-description {
+    width: 40%;
+    padding: 2.5%;
 
-    .about-description { 
-        width: 45%;
-        padding: 2.5%;
-      
-      }
+  }
+}
 
-      .about-bacco-h1, .bacco-club { 
-        font-size: 36px;
-      }
+@media only screen and (max-width: 1250px) {
+  .about-image {
+    width: 35%;
 
-      .about-bacco-p { 
-        font-size: 16px;
-        font-weight: 300;
-      }
-    } 
+  }
 
-    @media only screen and (max-width: 1000px) {
-        .about-container {
-          flex-direction: column;
-          
-        }
+  .about-description {
+    width: 45%;
+    padding: 2.5%;
 
-        .about-image {
-            width: 90%;
-          }
-      
-          .about-description { 
-              width: 90%;
-              padding: 5%;
-            }
+  }
 
-            .about-bacco-h1, .bacco-club { 
-                font-size: 28px;
-              }
-        
-              .about-bacco-p { 
-                font-size: 16px;
-                font-weight: 200;
-              }
+  .about-bacco-h1,
+  .bacco-club {
+    font-size: 36px;
+  }
 
-              .assinatura-container { 
-                flex-direction: column;
-              }
+  .about-bacco-p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
 
-        } 
+@media only screen and (max-width: 1000px) {
+  .about-container {
+    flex-direction: column;
+
+  }
+
+  .about-image {
+    width: 90%;
+  }
+
+  .about-description {
+    width: 90%;
+    padding: 5%;
+  }
+
+  .about-bacco-h1,
+  .bacco-club {
+    font-size: 28px;
+  }
+
+  .about-bacco-p {
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .assinatura-container {
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+
+  .assinatura-first h5 {
+    font-size: 16px;
+  }
+
+  .assinatura-first h1 {
+    font-size: 28px;
+  }
+
+  .assinatura-first {
+    width: 92%;
+    padding: 10% 4%;
+  }
+
+  .assinatura-third {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+  }
+
+  .bacco-container {
+    height: 100%;
+  }
 
 
 
-        @media only screen and (max-width: 500px) {
-          
-        
-            .video-container{ 
-                height: 60vh;
-              
-            }
+}
 
-            .logo { 
-                
-                height: 35%;
-            }
 
-          }
 
-          @media only screen and (max-width: 750px) {
-          
-        
-            .header-itens{ 
-               display: none;
-              
-            }
-          }
+@media only screen and (max-width: 500px) {
 
+  .tab {
+    overflow-x: scroll;
+  }
+
+  .video-container {
+    height: 60vh;
+
+  }
+
+  .logo {
+
+    height: 35%;
+  }
+
+  .bacco-content {
+    flex-direction: column;
+  }
+
+  .bacco-content-first {
+    display: none;
+  }
+
+  .bacco-content-second p,
+  .bacco-content-third p {
+    font-size: 16px;
+  }
+
+  .bacco-content-second,
+  .bacco-content-third,
+  .bacco-header p {
+    padding: 5%;
+    width: 90%;
+  }
+
+  .bacco-header h1 {
+    font-size: 40px;
+    margin-bottom: -25px;
+  }
+
+  .tab button {
+    white-space: nowrap;
+  }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+
+  .header-itens {
+    display: none;
+
+  }
+}
+
+
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1380px) {
+  .assinatura-first {
+    width: 60%;
+  }
+
+  .assinatura-third {
+    width: 33.33%;
+    background-position: center;
+  }
+}
